@@ -26,7 +26,7 @@ def live_aruco_detection(calibration_data):
     marker_size = 0.07  # 예: 7cm = 0.07m
 
     # 카메라 설정
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
 
     # 카메라 초기화 대기
     if not cap.isOpened():
